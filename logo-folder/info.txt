@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Renner-Book
+font link: http://indestructibletype.com/BuyRenner.html
+font author: indestructible type*
+font author site: http://indestructibletype.com/Home.html
+Slogan Font: Renner-Book
+
+icon designer: Aldric Rodríguez
+icon designer link: /aldricroib2
+        
+
+fontColor: {"gradient-0":"#FFA600","gradient-1":"#009615"}
+bgColor: {"hex":"#EFEEEB"}
+iconColor: {"gradient-0":"#FFA600","gradient-1":"#009615"}
+sloganColor: {"hex":"#C67800"}
+      
