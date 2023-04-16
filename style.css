@@ -62,7 +62,7 @@ a:visited {
   position: absolute;
   right: 0;
   z-index: 999;
-  width: 40%;
+  width: 38%;
 
   padding: 3rem 5rem 4rem 5rem;
   display: flex;
@@ -112,6 +112,11 @@ a:visited {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
 }
+
+.workout:last-child {
+  margin-bottom: 8rem;
+}
+
 .workout--running {
   border-top: 5px solid rgb(0, 204, 255);
 }
@@ -234,7 +239,9 @@ a:visited {
 }
 
 .leaflet-popup-content {
+  width: 140px !important;
   margin: 6px !important;
+  font-size: 12px !important;
 }
 
 /* Popup width is defined in JS using options */
@@ -249,7 +256,7 @@ a:visited {
 
 .leaflet-container .leaflet-popup-close-button {
   position: absolute;
-  top: 6px !important;
+  top: 4px !important;
   right: 4px !important;
   border: none;
   text-align: center;
@@ -291,4 +298,73 @@ a:visited {
   padding: 1.2rem 2rem;
   font-size: 1.2rem;
   border-radius: 0px 6px 0px 0px;
+}
+
+.portrait-alert {
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  /* transform: translateX(-50%); */
+  z-index: 9999;
+  background-color: #704b00e0;
+  padding: 1.2rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0px 6px 0px 0px;
+}
+
+@media screen and (max-width: 1300px) {
+  .sidebar * {
+    font-size: 100% !important;
+  }
+
+  .workout {
+    grid-template-columns: 1fr;
+    gap: 0.75rem 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .workout__title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem !important;
+  }
+
+  .logo {
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portrait-alert {
+    animation: fade-in-out 3s linear;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    height: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .portrait-alert {
+    visibility: visible;
+  }
+}
+
+@keyframes fade-in-out {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
 }

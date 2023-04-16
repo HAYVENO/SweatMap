@@ -66,6 +66,7 @@ class App {
   #mapE;
   #workouts = [];
   constructor() {
+    // these methods are called by default upon opening the app
     this._getPosition();
     this._getLocalStorage();
     form.addEventListener('submit', this._newWorkout.bind(this));
@@ -74,20 +75,40 @@ class App {
   }
 
   _getPosition() {
-    if (navigator.geolocation)
+    // default location is Arsenal's Emirates Stadium in London. COYG :)
+    const defaultLatitude = 51.5549;
+    const defaultLongitude = -0.1084;
+
+    if (navigator.geolocation) {
+      // Try to get the user's location
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function (err) {
-          return console.log(
-            err,
-            'We could not get your location. Kindly give us permission to access your location.'
-          );
-        }
+          // If there was an error, log it
+          console.log(err);
+
+          // Call the _loadMap() function with a default location - assigning the default lat and lng to position.coords
+          this._loadMap({
+            coords: {
+              latitude: defaultLatitude,
+              longitude: defaultLongitude,
+            },
+          });
+        }.bind(this)
       );
+    } else {
+      // If geolocation is not available, call the _loadMap() function with a default location
+      this._loadMap({
+        coords: {
+          latitude: defaultLatitude,
+          longitude: defaultLongitude,
+        },
+      });
+    }
   }
 
   _loadMap(position) {
-    const { latitude = 51.5549, longitude = 0.1084 } = position.coords ?? {};
+    const { latitude, longitude } = position.coords;
     console.log(latitude, longitude);
 
     console.log(
@@ -199,6 +220,9 @@ class App {
       )
       .setPopupContent(
         `${
+          (workout.type === 'running' && '🏃') ||
+          (workout.type === 'cycling' && '🚴🏼‍♂️')
+        }  ${
           workout.type[0].toUpperCase() + workout.type.slice(1).toLowerCase()
         } drill`
       )
