@@ -156,7 +156,7 @@ a:visited {
 
 .form {
   font-family: 'inter', sans-serif;
-  background-color: #42484da3;
+  background-color: #696f74a3;
   border-radius: 5px;
   padding: 1.5rem 2.75rem;
   margin-bottom: 1.75rem;
@@ -300,6 +300,21 @@ a:visited {
   border-radius: 0px 6px 0px 0px;
 }
 
+/* Alert styles */
+
+.instruction-alert {
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  z-index: 9999;
+  background-color: #003f70e0;
+  padding: 1.5rem 4rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  animation: fade-in-out 6s ease;
+}
+
 .portrait-alert {
   visibility: hidden;
   position: absolute;
@@ -310,8 +325,10 @@ a:visited {
   background-color: #704b00e0;
   padding: 1.2rem 2rem;
   font-size: 1.2rem;
-  border-radius: 0px 6px 0px 0px;
+  border-radius: 4px;
 }
+
+/* Media queries */
 
 @media screen and (max-width: 1300px) {
   .sidebar * {
@@ -336,7 +353,11 @@ a:visited {
 
 @media screen and (max-width: 800px) {
   .portrait-alert {
-    animation: fade-in-out 3s linear;
+    animation: fade-in-out 3s ease;
+  }
+
+  .instruction-alert {
+    animation: none;
   }
 }
 
@@ -357,7 +378,7 @@ a:visited {
     visibility: visible;
     opacity: 0;
   }
-  10% {
+  30% {
     opacity: 1;
   }
   90% {
