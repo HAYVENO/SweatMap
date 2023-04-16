@@ -87,9 +87,13 @@ class App {
   }
 
   _loadMap(position) {
-    const { latitude, longitude } = position.coords;
+    const { latitude = 51.5549, longitude = 0.1084 } = position.coords ?? {};
     console.log(latitude, longitude);
-    console.log(position);
+
+    console.log(
+      '🚀 ~ file: script.js:93 ~ App ~ _loadMap ~ position:',
+      position
+    );
 
     this.#map = L.map('map').setView([latitude, longitude], 15);
 
