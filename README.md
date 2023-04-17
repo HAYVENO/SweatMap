@@ -12,13 +12,13 @@ Sweatmap is a web app that helps users log their exercise sessions on the map us
 
 ## Skills Showcased
 
-A. Geolocation and Mapping: SweatMap uses the Geolocation API alongside the OpenStreetMap library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
+**A. Geolocation and Mapping:** SweatMap uses the Geolocation API alongside the OpenStreetMap library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
 
-B. Local Storage: SweatMap uses local storage to save exercise data on the user's device, allowing them to access their workout history offline and providing a seamless user experience.
+**B. Local Storage:** SweatMap uses local storage to save exercise data on the user's device, allowing them to access their workout history offline and providing a seamless user experience.
 
-C. Responsive Design: I'd say I put in the most work here. SweatMap is designed to be responsive and work on a variety of devices, including desktop, mobile, and tablet. This showcases the ability to create visually appealing, responsive layouts using modern UI techniques. I part of web-dev I really love.
+**C. Responsive Design:** I'd say I put in the most work here. SweatMap is designed to be responsive and work on a variety of devices, including desktop, mobile, and tablet. This showcases the ability to create visually appealing, responsive layouts using modern UI techniques. I part of web-dev I really love.
 
-D. Object-Oriented Programming: Utilized OOP and classes in the development of SweatMap, showcasing skills in software design and development.
+**D. Object-Oriented Programming:** Utilized OOP and classes in the development of SweatMap, showcasing skills in software design and development.
 
 ### Technologies Used
 
