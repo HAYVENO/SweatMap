@@ -1,20 +1,18 @@
 # Sweatmap - Track your miles
 
-![Memoreels game](https://res.cloudinary.com/detye5zx5/image/upload/v1681746250/sweatmap_App_mockup_ypwsak.png)
-
 Sweatmap is a web app that helps users log their exercise sessions on the map using the geolocation API for location (or not) - the user decides.
+
+![Memoreels game](https://res.cloudinary.com/detye5zx5/image/upload/v1681746250/sweatmap_App_mockup_ypwsak.png)
 
 ## Features
 
 - Log exercise sessions on the map for different activities, including running, cycling, and hiking using your geolocation.
-- Show a list of logged exercise sessions with details such as distance, duration, and speed.
-- Filter logged exercise sessions by activity type, distance, and duration.
-- Delete logged exercise sessions.
-- User authentication and authorization.
+- View a list of logged exercise sessions with details such as distance, duration, and speed.
+- Save and persist your sess
 
 ## Skills Showcased
 
-A. Geolocation and Mapping: SweatMap uses the Geolocation API alongside the Openstreet map library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
+A. Geolocation and Mapping: SweatMap uses the Geolocation API alongside the OpenStreetMap library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
 
 B. Local Storage: SweatMap uses local storage to save exercise data on the user's device, allowing them to access their workout history offline and providing a seamless user experience.
 
@@ -43,12 +41,11 @@ $ git clone https://github.com/hayveno/sweatmap.git
 
 ```bash
 $ cd SweatMap
-
 ```
 
 3. Go to `index.html`.
 
-4. Open the game locally with Live Server to start the game in `http://127.0.0.1:5500/` or any other specified `port`.
+4. Open the game locally with Live Server, Http-server or any other alternative to start the game in the home port `http://127.0.0.1:5500/`.
 
 How to Use SweatMap
 Using SweatMap is simple and intuitive. To log an exercise session, follow these steps:
@@ -60,6 +57,6 @@ Using SweatMap is simple and intuitive. To log an exercise session, follow these
 
 SweatMap provides exercise statistics, including distance, duration, elevation, depression, and speed, to help you track your progress and achieve your fitness goals. It's an adoption of Jonas Schmedtmann's JS course challenge that I had concluded, then improved, as at the time I took the course. Kudos to him!
 
-You can operate SweatMap on desktop, tablet or mobile, using the link in the About section. Don't forget to leave a star too 🙂 🌟
+You can operate SweatMap on desktop, tablet or mobile, using the _website link_ in the About section at the top of this page. Thank you, and don't forget to leave a star too 🙂 🌟
 
 > Disclaimer: SweatMap does **not** collect or store Geolocation data as apparent in the code.
