@@ -314,3 +314,14 @@ class App {
 const app = new App();
 
 console.log('bean');
+
+//ADDITIONAL OUTDOOR ACTIVITIES I'M LOOKING TO SUPPORT FOR SWEATMAP IN THE FUTURE
+// Walking
+// Running (Trail Running, Road Running, Beach Running, etc.)
+// Cycling (Mountain Biking, Road Cycling, BMX, etc.)
+// Skateboarding
+// Stand-up Paddle-boarding (SUP)
+// Cross-country Skiing
+// Downhill Skiing
+// Snowboarding
+// Hiking
