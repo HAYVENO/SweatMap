@@ -211,6 +211,14 @@ a:visited {
 
 .form__btn {
   display: none;
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #242543d8;
+  color: white;
+  justify-self: center;
 }
 
 .copyright {
@@ -328,12 +336,6 @@ a:visited {
   border-radius: 4px;
 }
 
-.workout {
-  grid-template-columns: 1fr;
-  gap: 0.75rem 1.5rem;
-  margin-bottom: 1.75rem;
-}
-
 .workout__title {
   margin-bottom: 1rem;
   font-size: 1.5rem !important;
@@ -345,12 +347,32 @@ a:visited {
 
 /* Media queries */
 @media screen and (max-width: 1300px) {
+  .form__btn {
+    display: flex;
+  }
+
   .sidebar * {
     font-size: 100% !important;
   }
 
   .form {
     grid-template-columns: 1fr;
+  }
+
+  .container {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .workout {
+    grid-template-columns: 1fr;
+    /* gap: 0.75rem 1.5rem;
+    margin-bottom: 1.75rem; */
+  }
+
+  .credit {
+    font-size: 50%;
   }
 }
 
