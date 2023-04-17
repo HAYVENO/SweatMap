@@ -10,16 +10,6 @@ Sweatmap is a web app that helps users log their exercise sessions on the map us
 - View a list of logged exercise sessions with details such as distance, duration, and speed.
 - Save and persist your sess
 
-## Skills Showcased
-
-**A. Geolocation and Mapping:** SweatMap uses the Geolocation API alongside the OpenStreetMap library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
-
-**B. Local Storage:** SweatMap uses local storage to save exercise data on the user's device, allowing them to access their workout history offline and providing a seamless user experience.
-
-**C. Responsive Design:** I'd say I put in the most work here. SweatMap is designed to be responsive and work on a variety of devices, including desktop, mobile, and tablet. This showcases the ability to create visually appealing, responsive layouts using modern UI techniques. I part of web-dev I really love.
-
-**D. Object-Oriented Programming:** Utilized OOP and classes in the development of SweatMap, showcasing skills in software design and development.
-
 ### Technologies Used
 
 - HTML5
@@ -27,7 +17,7 @@ Sweatmap is a web app that helps users log their exercise sessions on the map us
 - JavaScript (Object-oriented programming)
 - Leaflet.js (for displaying the map)
 
-# Getting Started
+## Getting Started
 
 To run Sweatmap on your machine, follow these steps:
 
@@ -47,7 +37,18 @@ $ cd SweatMap
 
 4. Open the game locally with Live Server, Http-server or any other alternative to start the game in the home port `http://127.0.0.1:5500/`.
 
-How to Use SweatMap
+## Skills Showcased
+
+**A. Geolocation and Mapping:** SweatMap uses the Geolocation API alongside the OpenStreetMap library to allow users to log exercise sessions on a map, showcasing my ability to work with location-based web technologies and integrate third-party APIs.
+
+**B. Local Storage:** SweatMap uses local storage to save exercise data on the user's device, allowing them to access their workout history offline and providing a seamless user experience.
+
+**C. Responsive Design:** I'd say I put in the most work here. SweatMap is designed to be responsive and work on a variety of devices, including desktop, mobile, and tablet. This showcases the ability to create visually appealing, responsive layouts using modern UI techniques. I part of web-dev I really love.
+
+**D. Object-Oriented Programming:** Utilized OOP and classes in the development of SweatMap, showcasing skills in software design and development.
+
+## How to Use SweatMap
+
 Using SweatMap is simple and intuitive. To log an exercise session, follow these steps:
 
 1. Click on the map to add a marker at the location of your exercise session
