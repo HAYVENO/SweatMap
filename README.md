@@ -1,11 +1,17 @@
 # Sweatmap - Track your miles
 
-Sweatmap is a web app that helps users log their exercise sessions on the map using the geolocation API for location (or not) - the user decides.
+<a href="https://sweatmap.vercel.app/" target="_blank" >Sweatmap</a> is a web app that helps users log their exercise sessions on the map using the geolocation API for location (or not) - the user decides.
 
 ![Memoreels game](https://res.cloudinary.com/detye5zx5/image/upload/v1681746250/sweatmap_App_mockup_ypwsak.png)
+<br/>
+[![Website qeep.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://SweatMap.vercel.app/)
+[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)]([https://github.com/hayveno/SweatMap/main/LICENSE](https://github.com/HAYVENO/SweatMap/blob/main/LICENSE))
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/SweatMap/graphs/commit-activity) 
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/SweatMap/issues/new)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/SweatMap/releases)
 
 ## Features
-
 - Log exercise sessions on the map for different activities, including running, cycling, and hiking using your geolocation.
 - View a list of logged exercise sessions with details such as distance, duration, and speed.
 - Save and persist your sess
@@ -61,3 +67,8 @@ SweatMap provides exercise statistics, including distance, duration, elevation, 
 You can operate SweatMap on desktop, tablet or mobile, using the _website link_ in the About section at the top of this page. Thank you, and don't forget to leave a star too 🙂 🌟
 
 > Disclaimer: SweatMap does **not** collect or store Geolocation data as apparent in the code.
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/SweatMap/issues/new)
+
+
