@@ -1,6 +1,6 @@
-# Sweatmap - Track your miles
+# SweatMap - Track your miles
 
-<a href="https://sweatmap.vercel.app/" target="_blank" >Sweatmap</a> is a web app that helps users log their exercise sessions on the map using the geolocation API for location (or not) - the user decides.
+<a href="https://sweatmap.vercel.app/" target="_blank" >SweatMap</a> is a web app that helps users log their exercise sessions on the map using the geolocation API for location (or not) - the user decides.
 
 ![Memoreels game](https://res.cloudinary.com/detye5zx5/image/upload/v1681746250/sweatmap_App_mockup_ypwsak.png)
 <br/>
